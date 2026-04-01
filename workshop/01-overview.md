@@ -29,18 +29,19 @@ When food is eaten — skip step 3. The snake grows by one.
 
 ```
 cyber-defender-snake/
-├── index.html   ← page structure + canvas element
-├── style.css    ← SOC terminal look
-└── game.js      ← all game logic
+├── index.html     ← page structure + canvas element
+├── style.css      ← dashboard styling
+├── game.js        ← all game logic
+└── lessons.json   ← cybersecurity lesson content (provided)
 ```
 
 ## Cyber Defender Snake's Extra Rules
 
-| Item | What happens |
-|---|---|
-| 🟢 Data packet (food) | Snake grows, score +1 |
-| 🔴 Threat node | Hit it → risk briefing shown, score -1000 |
-| 🟩 Defense node | Collect it → lesson card shown, score +1000 |
+| Item                   | What happens                               |
+| ---------------------- | ------------------------------------------ |
+| ◈ Data packet (food)   | Snake grows, score +1                      |
+| ⚠ Threat node (red)    | Hit it → risk briefing shown, score -1000  |
+| 🛡 Defense node (green) | Collect it → lesson card shown, score +500 |
 
 Threats and defenses are **tethered** — they always spawn as a pair. Collect the defense before touching the threat.
 
