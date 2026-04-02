@@ -1,5 +1,9 @@
 # 🛡️ CyberDefenderSnake — Safaricom De{c0}dE 2026 Workshop
 
+<p align="center">
+  <img src="qr-code.png" alt="Workshop QR Code" width="250" />
+</p>
+
 Build a cybersecurity Snake game from scratch using **AI Coding Agents**.
 
 👉 **Live Demo:** [De{c0}dE Cyber Defender Snake Game](https://cyber-defender-snake.vercel.app/)
